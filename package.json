@@ -1,0 +1,9 @@
+{
+  "name": "node-course",
+  "version": "0.0.1",
+  "description": "Node courses content, app and scripts.",
+  "main": "index.js",
+  "repository": "git@github.com:RajaBellebon/node-course.git",
+  "author": "rbellebon@gmail.com",
+  "license": "MIT"
+}
