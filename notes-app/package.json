@@ -1,8 +1,8 @@
 {
-  "name": "node-course",
+  "name": "notes-app",
   "version": "0.0.1",
-  "description": "Node courses content, app and scripts.",
-  "main": "index.js",
+  "description": "Notes app",
+  "main": "app.js",
   "repository": "git@github.com:RajaBellebon/node-course.git",
   "author": "rbellebon@gmail.com",
   "license": "MIT",
