@@ -5,19 +5,23 @@
 // 3. Test your work by running the script
 
 const tasks = {
-  tasks: [{
-      text: 'Grocery shopping',
+  tasks: [
+    {
+      text: "Grocery shopping",
       completed: true
-  }, {
-      text: 'Clean yard',
+    },
+    {
+      text: "Clean yard",
       completed: false
-  }, {
-      text: 'Film course',
+    },
+    {
+      text: "Film course",
       completed: false
-  }],
-  getTasksToDo(){
-    return this.tasks.filter(task => !task.completed).map(task => task.text)
+    }
+  ],
+  getTasksToDo() {
+    return this.tasks.filter(task => !task.completed).map(task => task.text);
   }
-}
+};
 
-console.log(tasks.getTasksToDo())
+console.log(tasks.getTasksToDo());
